@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrime"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrime"
+      >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="110dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="Localiza tu experiencia"
+            android:textAlignment="center"
+            android:textColor="@color/textPrimaryColor"
+            android:textSize="18dp"
+
+
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="532dp"
+        android:orientation="vertical"
+
+
+        android:background="@color/colorSecundary"
+
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoregular"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="Con tu ubicación puedes encontrar noticias, jugadores y torneos en tu área"
+            android:textAlignment="center"
+            android:textColor="@color/headerTextColor" />
+
+        <ImageView
+
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            android:id="@+id/logo"
+            android:src="@drawable/ubicacion"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoregular"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Presiona aceptar para obtener información de tu ubicación y disfrutar al máximo de Ludum"
+            android:textAlignment="center"
+            android:textColor="@color/informationTextColor" />
+
+        <Button
+            android:id="@+id/accept_btn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/rounded_button"
+            android:bottomLeftRadius="50dp"
+            android:bottomRightRadius="10dp"
+            android:text="Aceptar"
+            android:textColor="@color/textButtonColor"
+            android:textAllCaps="false"
+
+            ></Button>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

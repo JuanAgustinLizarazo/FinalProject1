@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Menu"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:background="@color/colorPrime"
+
+        android:weightSum="1">
+
+
+    <ImageButton
+        android:id="@+id/home_btn"
+        style = "@style/buttons"
+        android:background="@drawable/home"
+        ></ImageButton>
+    <ImageButton
+        android:id="@+id/people_btn"
+        style = "@style/buttons"
+        android:background="@drawable/group"
+        ></ImageButton>
+    <ImageButton
+        android:id="@+id/tournament_btn"
+        style = "@style/buttons"
+        android:background="@drawable/trophie"
+        ></ImageButton>
+    <ImageButton
+        android:id="@+id/chat_btn"
+        style = "@style/buttons"
+        android:background="@drawable/message"
+        ></ImageButton>
+    <!-- TODO: Update blank fragment layout -->
+    </LinearLayout>
+</FrameLayout>

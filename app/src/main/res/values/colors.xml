@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrime">#101110</color>
+    <color name="colorSecundary">#201D1D</color>
+    <color name="colorSupport">#49853F</color>
+    <color name="textPrimaryColor">#FFFBFB</color>
+    <color name="headerTextColor">#FCF3F3</color>
+    <color name="informationTextColor">#B6B0B0</color>
+    <color name="secundaryOptionButtonColor">#688E62</color>
+    <color name="textFieldTextColor">#5F5b5B</color>
+    <color name="textFieldLineColor">#FFFFFF</color>
+    <color name="textButtonColor">#F5EFEF</color>
+</resources>

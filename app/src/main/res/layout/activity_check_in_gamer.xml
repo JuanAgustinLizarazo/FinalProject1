@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrime"
+
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrime"
+        android:gravity="center"
+        >
+        <ImageView
+
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/lol_imgV"
+            android:layout_marginLeft="40dp"
+
+            android:background="@drawable/lol"
+            />
+
+        <ImageView
+
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:id="@+id/dota_imgV"
+            android:background="@drawable/vector"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorPrime"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/robotoregular"
+                android:text="Registro Usuario"
+                android:textAlignment="center"
+                android:textColor="@color/textPrimaryColor"
+                android:textSize="40dp"
+
+
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/colorPrime"
+
+                >
+
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:padding="15dp"
+                    android:textColorHint="@color/textFieldTextColor"
+                    android:hint="Nombre"
+                    android:id="@+id/userText_Etxt"
+                    android:textColor="@color/textPrimaryColor"
+
+                    />
+
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:padding="15dp"
+                    android:textColorHint="@color/textFieldTextColor"
+                    android:hint="Telefono"
+                    android:id="@+id/Userphone_Etxt"
+                    android:textColor="@color/textPrimaryColor"
+
+                    />
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:padding="15dp"
+                    android:textColorHint="@color/textFieldTextColor"
+                    android:hint="Correo electronico"
+                    android:id="@+id/userMail_Etxt"
+                    android:textColor="@color/textPrimaryColor"
+
+                    />
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:padding="15dp"
+                    android:textColorHint="@color/textFieldTextColor"
+                    android:hint="Ciudad"
+                    android:id="@+id/userCity_Etxt"
+                    android:textColor="@color/textPrimaryColor"
+
+                    />
+
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:padding="15dp"
+                    android:textColorHint="@color/textFieldTextColor"
+                    android:hint="Usuario"
+                    android:id="@+id/userNick_Etxt"
+                    android:textColor="@color/textPrimaryColor"
+
+                    />
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:padding="15dp"
+                    android:textColorHint="@color/textFieldTextColor"
+                    android:hint="Contraseña"
+                    android:id="@+id/userPassword_Etxt"
+                    android:textColor="@color/textPrimaryColor"
+
+                    />
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:padding="15dp"
+                    android:textColorHint="@color/textFieldTextColor"
+                    android:hint="Repetir contraseña"
+                    android:id="@+id/userRepeatPassword_Etxt"
+                    android:textColor="@color/textPrimaryColor"
+
+                    />
+
+
+                <Button
+
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:text="Crear cuenta"
+                    android:textColor="@color/textButtonColor"
+                    android:id="@+id/userCheck_btn"
+                    android:background="@drawable/rounded_button"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrime"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorPrime"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/robotoregular"
+                android:text="Registro Empresa"
+                android:textAlignment="center"
+                android:textColor="@color/textPrimaryColor"
+                android:textSize="40dp"
+
+
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/colorPrime"
+
+                >
+
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:padding="15dp"
+                    android:textColorHint="@color/textFieldTextColor"
+                    android:hint="Nombre"
+                    android:id="@+id/name_Etxt"
+
+                    />
+
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:padding="15dp"
+                    android:textColorHint="@color/textFieldTextColor"
+                    android:hint="Telefono"
+                    android:id="@+id/phone_Etxt"
+
+                    />
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:padding="15dp"
+                    android:textColorHint="@color/textFieldTextColor"
+                    android:hint="Correo electronico"
+                    android:id="@+id/mail_Etxt"
+
+                    />
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:padding="15dp"
+                    android:textColorHint="@color/textFieldTextColor"
+                    android:hint="Ciudad"
+                    android:id="@+id/city_Etxt"
+
+                    />
+
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:padding="15dp"
+                    android:textColorHint="@color/textFieldTextColor"
+                    android:hint="NIT"
+                    android:id="@+id/nit_Etxt"
+
+                    />
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:padding="15dp"
+                    android:textColorHint="@color/textFieldTextColor"
+                    android:hint="Código postal"
+                    android:id="@+id/postalCode_Etxt"
+
+                    />
+                <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:padding="15dp"
+                    android:textColorHint="@color/textFieldTextColor"
+                    android:hint="Razón socia_Etxt"
+                    android:id="@+id/business_Etxt"
+
+                    />
+
+
+                <Button
+
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:text="Crear cuenta"
+                    android:textColor="@color/textButtonColor"
+                    android:id="@+id/create_btn"
+                    android:background="@drawable/rounded_button"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

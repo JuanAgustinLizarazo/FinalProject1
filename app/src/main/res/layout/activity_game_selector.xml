@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrime"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrime"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/robotoregular"
+                android:text="Elige tus juegos favoritos"
+                android:textAlignment="center"
+                android:textColor="@color/textPrimaryColor"
+                android:textSize="25dp"
+
+
+                />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="532dp"
+            android:orientation="vertical"
+
+            android:gravity="center"
+            android:background="@color/colorSecundary"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+
+                android:background="@color/colorSecundary"
+
+                >
+                <Button
+
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/lol_btn"
+
+                    android:background="@drawable/lol"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+
+                android:background="@color/colorSecundary"
+
+                >
+
+                <Button
+
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+
+                    android:id="@+id/dota_btn"
+                    android:background="@drawable/vector"
+                    />
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/continue_btn"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/rounded_button"
+                android:bottomLeftRadius="50dp"
+                android:bottomRightRadius="10dp"
+
+                android:text="Continuar"
+                android:textColor="@color/textButtonColor"
+
+
+                ></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
